@@ -5,6 +5,12 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * level backkstack.
+ * <p>
+ *     Hold two list represent current level and next level.
+ * </p>
+ */
 public class Leetcode756 {
 
     private Map<String, List<Character>> tree = new HashMap<>();
